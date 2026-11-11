@@ -1,0 +1,14 @@
+
+print('---Student Information----')
+first_name = input("Enter your first Name: ").strip()
+last_name = input("Enter your last name:").strip()
+section = input("Enter your section: ").strip()
+favorite_subject = input("Enter your favorite subject: ").strip()
+
+full_name = first_name + last_name
+
+print("Formatted Output: ")
+print(f"Name: {full_name}")
+print(f"Section: {section.upper()}")
+print(f"subject: {favorite_subject.upper()}")
+print(f"character count: {len(full_name)}")
